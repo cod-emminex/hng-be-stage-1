@@ -30,7 +30,7 @@ This API takes a number as input and returns various mathematical properties abo
     "is_perfect": false,
     "properties": ["armstrong", "odd"],
     "digit_sum": 11,
-    "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
+    "fun_fact": "a fun fact about the number"
 }
 
 ```
@@ -75,13 +75,18 @@ curl "https://hng-be-stage-1.vercel.app/api/classify-number?number=371"
 
 ### Important Notes
 The API accepts all valid integers as input
+
 Response time is optimized to be under 500ms
+
 CORS is enabled for cross-origin requests
+
 Fun facts are fetched from the Numbers API
 
 ### Error Handling
 Invalid inputs return a 400 Bad Request status
+
 Server errors return a 500 Internal Server Error status
+
 All responses are in JSON format
 
 ### License
@@ -90,5 +95,7 @@ MIT
 ### Author
 Github: [@cod-emminex](https://github.com/cod-emminex)
 
-For more information on hiring Node.js developers, visit HNG Node.js Developers: https://hng.tech/hire/nodejs-developers
+For more information on hiring Node.js developers, visit [HNG Node.js Developers](https://hng.tech/hire/nodejs-developers)
+
+```
 
