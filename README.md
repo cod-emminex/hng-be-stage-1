@@ -74,26 +74,21 @@ curl "https://hng-be-stage-1.vercel.app/api/classify-number?number=371"
 - Axios
 
 ### Important Notes
-The API accepts all valid integers as input
-
-Response time is optimized to be under 500ms
-
-CORS is enabled for cross-origin requests
-
-Fun facts are fetched from the Numbers API
+- The API accepts all valid integers as input
+- Response time is optimized to be under 500ms
+- CORS is enabled for cross-origin requests
+- Fun facts are fetched from the Numbers API
 
 ### Error Handling
-Invalid inputs return a 400 Bad Request status
-
-Server errors return a 500 Internal Server Error status
-
-All responses are in JSON format
+- Invalid inputs return a 400 Bad Request status
+- Server errors return a 500 Internal Server Error status
+- All responses are in JSON format
 
 ### License
-MIT
+- MIT
 
 ### Author
-Github: [@cod-emminex](https://github.com/cod-emminex)
+- Github: [@cod-emminex](https://github.com/cod-emminex)
 
 For more information on hiring Node.js developers, visit [HNG Node.js Developers](https://hng.tech/hire/nodejs-developers)
 
