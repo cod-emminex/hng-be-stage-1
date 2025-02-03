@@ -35,7 +35,7 @@ This API takes a number as input and returns various mathematical properties abo
 
 ```
 
-Error Response (400 Bad Request)
+### Error Response (400 Bad Request)
 ```json
 {
     "number": "alphabet",
@@ -43,7 +43,7 @@ Error Response (400 Bad Request)
 }
 ```
 
-Local Development
+### Local Development
 1. Clone the repository:
 ```bash
 git clone https://github.com/cod-emminex/number-classification-api.git
@@ -59,35 +59,36 @@ npm install
 npm run dev
 ```
 
-Live Demo
-The API is deployed at: https://number-classification-api.vercel.app/api/classify-number
+### Live Demo
+The API is deployed at: https://hng-be-stage-1.vercel.app/api/classify-number
 
 Example:
 ```bash
-curl "https://number-classification-api.vercel.app/api/classify-number?number=371"
+curl "https://hng-be-stage-1.vercel.app/api/classify-number?number=371"
 ```
 
-Technologies Used
-Node.js
-Express
-CORS
-Axios
+### Technologies Used
+- Node.js
+- Express
+- CORS
+- Axios
 
-Important Notes
+### Important Notes
 The API accepts all valid integers as input
 Response time is optimized to be under 500ms
 CORS is enabled for cross-origin requests
 Fun facts are fetched from the Numbers API
 
-Error Handling
+### Error Handling
 Invalid inputs return a 400 Bad Request status
 Server errors return a 500 Internal Server Error status
 All responses are in JSON format
-License
+
+### License
 MIT
 
-Author
-cod-emminex
+### Author
+Github: [@cod-emminex](https://github.com/cod-emminex)
 
 For more information on hiring Node.js developers, visit HNG Node.js Developers: https://hng.tech/hire/nodejs-developers
 
