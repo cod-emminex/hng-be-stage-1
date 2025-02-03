@@ -97,5 +97,3 @@ Github: [@cod-emminex](https://github.com/cod-emminex)
 
 For more information on hiring Node.js developers, visit [HNG Node.js Developers](https://hng.tech/hire/nodejs-developers)
 
-```
-
